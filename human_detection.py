@@ -4,7 +4,7 @@ import cv2
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
-video = cv2.VideoCapture(0)
+video = cv2.VideoCapture(1)
 
 while True:
     ret,frame = video.read()
